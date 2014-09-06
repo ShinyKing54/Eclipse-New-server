@@ -663,18 +663,18 @@ var components = exports.components = {
 			var _room = Rooms.rooms[rooms[(rooms.length - len) - 1]];
 			if (_room.type === 'chat') {
 				if (_room.isOfficial) {
-					official.push(('<a href="/' + _room.title + '" class="ilink">' + _room.title + '</a>'));
+					official.push(('<a href="/' + _room.id + '" class="ilink"><b>' + _room.title + '</b></a>'));
 					continue;
 				}
 				if (_room.isPrivate) {
-					privateRoom.push(('<a href="/' + _room.title + '" class="ilink">' + _room.title + '</a>'));
+					privateRoom.push(('<a href="/' + _room.id + '" class="ilink"><b>' + _room.title + '</b></a>'));
 					continue;
 				}
-				nonOfficial.push(('<a href="/' + _room.title + '" class="ilink">' + _room.title + '</a>'));
+				nonOfficial.push(('<a href="/' + _room.id + '" class="ilink"><b>' + _room.title + '</b></a>'));
 			}
 		}
 
-		this.sendReplyBox(official.join(' ') + nonOfficial.join(' ') + privateRoom.join(' '));
+		this.sendReplyBox(official.join('| ') + nonOfficial.join('| ') + privateRoom.join('| '));
 	},
 
 	sudo: function(target, room, user) {
