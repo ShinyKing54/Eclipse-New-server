@@ -30,11 +30,13 @@ var components = exports.components = {
 	staffroom: function(target, room, user) {
 		if (!user.can('updateserver')) return false;
 		room.isStaff = true;
+		this.privateModCommand(user.name + ' made this a staff room.');
 	},
 
 	destaffroom: function(target, room, user) {
 		if (!user.can('updateserver')) return false;
 		room.isStaff = false;
+		this.privateModCommand(user.name + ' made this a non-staff room.');
 	},
 
 	earnbuck: 'earnmoney',
