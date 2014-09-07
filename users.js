@@ -904,7 +904,7 @@ User = (function () {
 				this.isSysop = false;
 
 				user.group = group;
-				user.isStaff = (user.group in {'%':1, '@':1, '&':1, '~':1});
+				user.isStaff = (user.group in {'%':1, '♛':1, '@':1, '&':1, '~':1});
 				user.isSysop = isSysop;
 				user.forceRenamed = false;
 				if (avatar) user.avatar = avatar;
@@ -929,7 +929,7 @@ User = (function () {
 
 			// rename success
 			this.group = group;
-			this.isStaff = (this.group in {'%':1, '@':1, '&':1, '~':1});
+			this.isStaff = (user.group in {'%':1, '♛':1, '@':1, '&':1, '~':1});
 			this.isSysop = isSysop;
 			if (avatar) this.avatar = avatar;
 			if (this.forceRename(name, authenticated)) {
@@ -985,7 +985,7 @@ User = (function () {
 	};
 	User.prototype.setGroup = function (group) {
 		this.group = group.substr(0, 1);
-		this.isStaff = (this.group in {'%':1, '@':1, '&':1, '~':1});
+		this.isStaff = (user.group in {'%':1, '♛':1, '@':1, '&':1, '~':1});
 		if (!this.group || this.group === Config.groupsranking[0]) {
 			delete usergroups[this.userid];
 		} else {
