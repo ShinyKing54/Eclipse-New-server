@@ -793,7 +793,8 @@ var commands = exports.commands = {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox(
 			"+ <b>Voice</b> - They can use ! commands like !groups, and talk during moderated chat<br />" +
-			"% <b>Driver</b> - The above, and they can mute. Global % can also lock users and check for alts<br />" +
+			"$ <b>Hustler></b> - The above, and they can warn and mute. They can also use /announce<br/>" +
+			"% <b>Driver</b> - The above, and global % can also lock users and check for alts<br />" +
 			"@ <b>Moderator</b> - The above, and they can ban users<br />" +
 			"&amp; <b>Leader</b> - The above, and they can promote to moderator and force ties<br />" +
 			"# <b>Room Owner</b> - They are leaders of the room and can almost totally control it<br />" +
