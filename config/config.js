@@ -185,14 +185,14 @@ exports.appealurl = '';
 //     - potd: Set PotD.
 //     - forcewin: /forcewin command.
 //     - battlemessage: /a command.
-exports.groupsranking = [' ', '+', '%', '@', '\u2605', '#', '&', '~'];
+exports.groupsranking = [' ', '+', '$', '%', '@', '\u2605', '#', '&', '~'];
 exports.groups = {
 	'~': {
 		id: "admin",
 		name: "Administrator",
 		root: true,
 		globalonly: true,
-		rank: 7
+		rank: 8
 	},
 	'&': {
 		id: "leader",
@@ -208,7 +208,7 @@ exports.groups = {
 		disableladder: true,
 		globalonly: true,
 		tournamentsmanagement: true,
-		rank: 6
+		rank: 7
 	},
 	'#': {
 		id: "owner",
@@ -221,7 +221,7 @@ exports.groups = {
 		modchatall: true,
 		roomonly: true,
 		tournamentsmanagement: true,
-		rank: 5
+		rank: 6
 	},
 	'\u2605': {
 		id: "player",
@@ -231,7 +231,7 @@ exports.groups = {
 		modchat: true,
 		roomonly: true,
 		privateroom: true,
-		rank: 4
+		rank: 5
 	},
 	'@': {
 		id: "mod",
@@ -246,7 +246,7 @@ exports.groups = {
 		tournamentsmoderation: true,
 		alts: '@u',
 		tournaments: true,
-		rank: 3
+		rank: 4
 	},
 	'%': {
 		id: "driver",
@@ -265,6 +265,19 @@ exports.groups = {
 		bypassblocks: 'u%@&~',
 		receiveauthmessages: true,
 		tournamentsmoderation: true,
+		rank: 3
+	},
+	'$': {
+		id:"hustler",
+		name:"Hustler",
+		inherit:"+",
+		jurisdiction: 'u',
+		alts: '$u',
+		announce: true,
+		warn: true
+		mute: true
+		tournamentsmoderation: true,
+		tournaments: true,
 		rank: 2
 	},
 	'+': {
