@@ -656,8 +656,6 @@ exports.BattleMovedex = {
 		target: "normal",
 		type: "Dark"
 	},
- 
-	
 	"autotomize": {
 		num: 475,
 		accuracy: true,
