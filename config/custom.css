@@ -1,0 +1,375 @@
+/**
+ * Custom CSS declarations
+ *
+ * If your server is registered, you can create a file named `custom.css`
+ * in the `config` directory and populate it with CSS rules to override the
+ * normal client styles, when the client is connected to your server. In
+ * other words, you can use this facility to introduce a custom theme for
+ * your server.
+ */
+ body {
+  color: blue;
+  font-size: 12px;
+  font-family: Arial, Verdana;
+  background: url(http://i.imgur.com/t6KqTum.jpg);
+}
+.scrollable {
+  overflow: auto;
+}
+.ps-room {
+      position: absolute;
+	  display: block;
+	  top: 56px;
+	  bottom: 0px;
+	  border-left: 1px solid #AAAAAA;
+}
+.chat-log {
+        posistion: absolute;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		bottom: 40px;
+		font-size: 11pt;
+		background: background: rgba(13, 12, 13, 0.63); 
+		color: rgb(9, 196, 203);
+		word-wrap: word-break;
+		overflow: auto;
+		overflow-x: hidden;
+}
+.menugroup .button:hover {
+    background: rgb(112, 100, 150);
+}
+.menugroup .button {
+    background: rgb(150, 143, 179);
+	color: #382B4A;
+	text-shadow: 0px 0px 9px #FFA3C5;
+	font-family: Angrybirds;
+}
+.menugroup {
+    background: rgba(243, 125, 196, 0.34)
+}
+.pm-log {
+  min-height: 100px;
+  max-height: 300px;
+  background: rgba(15, 75, 111, 0.65);
+  color: #E871F0;
+  word-wrap: break-word;
+  border: 1px slolid #AAAAAA;
+  border-top: 0;
+  border-bottom: 0;
+  overflow: auto;
+}
+.pm-log-add {
+  border: 1px solid #CA4D4D;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: rgba(202, 24, 231, 0.85);
+}
+ul.userlist {
+   background: linear-gradient(to bottom, #958eb2 9%,#958eb2 9%,#958eb2 24%,#382b4a 39%,#958eb2 52%,#f6897a 52%,#6f6395 64%,#000000 85%,#6f6395 100%);
+}
+.chat-log .chat {
+   padding: 4px 0 2px 0;
+   font-size: 9pt;
+}
+.highlighted {
+  background-color: rgba(35, 129, 118, 0.68);
+}
+.message-pm {
+   color: #1CCF76;
+}
+.chat small {
+   font-weight: normal;
+   font-size: 9pt;
+   color: #10A4FF;
+}
+button.type-Water {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 10px;
+    background-color: #EEEEEE;
+    background: linear-gradient(#2706CC,#05CFFC);
+    text-align: center;
+    box-shadow: 0 5px 2px 3px rgba(158, 158, 158, 0.4), 
+    0 3px 5px #B7B6B6, 
+    0 0 0 2px #BBB7AE, 
+    inset 0 -3px 1px 2px rgba(186, 178, 165, 0.5),
+    inset 0 3px 1px 2px rgba(246, 245, 241, 0.3);
+}
+
+button.type-Normal {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 10px;
+    background-color: #EEEEEE;
+    background: linear-gradient(#534932,#d6d695);
+    text-align: center;
+    box-shadow: 0 5px 2px 3px rgba(158, 158, 158, 0.4), 
+    0 3px 5px #B7B6B6, 
+    0 0 0 2px #BBB7AE, 
+    inset 0 -3px 1px 2px rgba(186, 178, 165, 0.5),
+    inset 0 3px 1px 2px rgba(246, 245, 241, 0.3);
+}
+
+button.type-Psychic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 10px;
+    background-color: #EEEEEE;
+    background: linear-gradient(#b12a5d,#ff73ae);
+    text-align: center;
+    box-shadow: 0 5px 2px 3px rgba(158, 158, 158, 0.4), 
+    0 3px 5px #B7B6B6, 
+    0 0 0 2px #BBB7AE, 
+    inset 0 -3px 1px 2px rgba(186, 178, 165, 0.5),
+    inset 0 3px 1px 2px rgba(246, 245, 241, 0.3);
+}
+
+button.type-Fire {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 10px;
+    background-color: #EEEEEE;
+    background: linear-gradient(#8A4306,#FFA85C);
+    text-align: center;
+    box-shadow: 0 5px 2px 3px rgba(158, 158, 158, 0.4), 
+    0 3px 5px #B7B6B6, 
+    0 0 0 2px #BBB7AE, 
+    inset 0 -3px 1px 2px rgba(186, 178, 165, 0.5),
+    inset 0 3px 1px 2px rgba(246, 245, 241, 0.3);
+}
+
+button.type-Electric {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 10px;
+    background-color: #EEEEEE;
+    background: linear-gradient(#B8B51A,#FFFD7A);
+    text-align: center;
+    box-shadow: 0 5px 2px 3px rgba(158, 158, 158, 0.4), 
+    0 3px 5px #B7B6B6, 
+    0 0 0 2px #BBB7AE, 
+    inset 0 -3px 1px 2px rgba(186, 178, 165, 0.5),
+    inset 0 3px 1px 2px rgba(246, 245, 241, 0.3);
+}
+
+button.type-Ice {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 10px;
+    background-color: #EEEEEE;
+    background: linear-gradient(#0083A1,#BAF2FF);
+    text-align: center;
+    box-shadow: 0 5px 2px 3px rgba(158, 158, 158, 0.4), 
+    0 3px 5px #B7B6B6, 
+    0 0 0 2px #BBB7AE, 
+    inset 0 -3px 1px 2px rgba(186, 178, 165, 0.5),
+    inset 0 3px 1px 2px rgba(246, 245, 241, 0.3);
+}
+
+button.type-Grass {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 10px;
+    background-color: #EEEEEE;
+    background: linear-gradient(#005707,#73FF7E);
+    text-align: center;
+    box-shadow: 0 5px 2px 3px rgba(158, 158, 158, 0.4), 
+    0 3px 5px #B7B6B6, 
+    0 0 0 2px #BBB7AE, 
+    inset 0 -3px 1px 2px rgba(186, 178, 165, 0.5),
+    inset 0 3px 1px 2px rgba(246, 245, 241, 0.3);
+}
+
+button.type-Poison {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 10px;
+    background-color: #EEEEEE;
+    background: linear-gradient(#570050,#CC52C2);
+    text-align: center;
+    box-shadow: 0 5px 2px 3px rgba(158, 158, 158, 0.4), 
+    0 3px 5px #B7B6B6, 
+    0 0 0 2px #BBB7AE, 
+    inset 0 -3px 1px 2px rgba(186, 178, 165, 0.5),
+    inset 0 3px 1px 2px rgba(246, 245, 241, 0.3);
+}
+
+button.type-Fighting {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 10px;
+    background-color: #EEEEEE;
+    background: linear-gradient(#700C18,#C45A67);
+    text-align: center;
+    box-shadow: 0 5px 2px 3px rgba(158, 158, 158, 0.4), 
+    0 3px 5px #B7B6B6, 
+    0 0 0 2px #BBB7AE, 
+    inset 0 -3px 1px 2px rgba(186, 178, 165, 0.5),
+    inset 0 3px 1px 2px rgba(246, 245, 241, 0.3);
+}
+
+button.type-Ground {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 10px;
+    background-color: #EEEEEE;
+    background: linear-gradient(#826549,#E6D3C1);
+    text-align: center;
+    box-shadow: 0 5px 2px 3px rgba(158, 158, 158, 0.4), 
+    0 3px 5px #B7B6B6, 
+    0 0 0 2px #BBB7AE, 
+    inset 0 -3px 1px 2px rgba(186, 178, 165, 0.5),
+    inset 0 3px 1px 2px rgba(246, 245, 241, 0.3);
+}
+
+button.type-Flying {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 10px;
+    background-color: #EEEEEE;
+    background: linear-gradient(#6A5073,#D6C1DE);
+    text-align: center;
+    box-shadow: 0 5px 2px 3px rgba(158, 158, 158, 0.4), 
+    0 3px 5px #B7B6B6, 
+    0 0 0 2px #BBB7AE, 
+    inset 0 -3px 1px 2px rgba(186, 178, 165, 0.5),
+    inset 0 3px 1px 2px rgba(246, 245, 241, 0.3);
+}
+
+button.type-Bug {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 10px;
+    background-color: #EEEEEE;
+    background: linear-gradient(#618005,#B3D68D);
+    text-align: center;
+    box-shadow: 0 5px 2px 3px rgba(158, 158, 158, 0.4), 
+    0 3px 5px #B7B6B6, 
+    0 0 0 2px #BBB7AE, 
+    inset 0 -3px 1px 2px rgba(186, 178, 165, 0.5),
+    inset 0 3px 1px 2px rgba(246, 245, 241, 0.3);
+}
+
+button.type-Rock {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 10px;
+    background-color: #EEEEEE;
+    background: linear-gradient(#57421B,#B8975C);
+    text-align: center;
+    box-shadow: 0 5px 2px 3px rgba(158, 158, 158, 0.4), 
+    0 3px 5px #B7B6B6, 
+    0 0 0 2px #BBB7AE, 
+    inset 0 -3px 1px 2px rgba(186, 178, 165, 0.5),
+    inset 0 3px 1px 2px rgba(246, 245, 241, 0.3);
+}
+
+button.type-Ghost {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 10px;
+    background-color: #EEEEEE;
+    background: linear-gradient(#392D47,#7B7287);
+    text-align: center;
+    box-shadow: 0 5px 2px 3px rgba(158, 158, 158, 0.4), 
+    0 3px 5px #B7B6B6, 
+    0 0 0 2px #BBB7AE, 
+    inset 0 -3px 1px 2px rgba(186, 178, 165, 0.5),
+    inset 0 3px 1px 2px rgba(246, 245, 241, 0.3);
+}
+
+button.type-Dragon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 10px;
+    background-color: #EEEEEE;
+    background: linear-gradient(#4F14C4,#AB86F7);
+    text-align: center;
+    box-shadow: 0 5px 2px 3px rgba(158, 158, 158, 0.4), 
+    0 3px 5px #B7B6B6, 
+    0 0 0 2px #BBB7AE, 
+    inset 0 -3px 1px 2px rgba(186, 178, 165, 0.5),
+    inset 0 3px 1px 2px rgba(246, 245, 241, 0.3);
+}
+
+button.type-Dark {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 10px;
+    background-color: #EEEEEE;
+    background: linear-gradient(#2B1E19,#7D685F);
+    text-align: center;
+    box-shadow: 0 5px 2px 3px rgba(158, 158, 158, 0.4), 
+    0 3px 5px #B7B6B6, 
+    0 0 0 2px #BBB7AE, 
+    inset 0 -3px 1px 2px rgba(186, 178, 165, 0.5),
+    inset 0 3px 1px 2px rgba(246, 245, 241, 0.3);
+}
+
+button.type-Steel {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 10px;
+    background-color: #EEEEEE;
+    background: linear-gradient(#4F4F4F,#B3B3B3);
+    text-align: center;
+    box-shadow: 0 5px 2px 3px rgba(158, 158, 158, 0.4), 
+    0 3px 5px #B7B6B6, 
+    0 0 0 2px #BBB7AE, 
+    inset 0 -3px 1px 2px rgba(186, 178, 165, 0.5),
+    inset 0 3px 1px 2px rgba(246, 245, 241, 0.3);
+}
+
+button.type-Fairy {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 10px;
+    background-color: #EEEEEE;
+    background: linear-gradient(#FF24E5,#FFA1F4);
+    text-align: center;
+    box-shadow: 0 5px 2px 3px rgba(158, 158, 158, 0.4), 
+    0 3px 5px #B7B6B6, 
+    0 0 0 2px #BBB7AE, 
+    inset 0 -3px 1px 2px rgba(186, 178, 165, 0.5),
+    inset 0 3px 1px 2px rgba(246, 245, 241, 0.3);
+}
+
+
+.menugroup .button:hover {
+    background: rgb(0, 0, 15);
+}
+
+.menugroup .button {
+    background: rgb(34, 34, 48);
+    color: #6F00FF;
+    text-shadow: 0px 0px 8px #A40FFA;
+    font-family: cheapfire;
+    -webkit-text-stroke: 0.009px #FFD30F;
+    font-weight: bold;
+    font-size: 15pt;
+    letter-spacing: 1px;
+}
+
+
+.ps-room.ps-room-light {
+    background: rgba(112, 6, 153, 0.31);
+}
