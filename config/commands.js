@@ -661,7 +661,7 @@ var commands = exports.commands = {
                     if (!this.can('customavatars')) return false;
                     if (!target) return connection.sendTo(room, 'Usage: /customavatar username, URL');
                     var http = require('http-get');
-                    target = target.split(", ");
+                    target = target.split(",");
                     var username = Users.get(target[0]);
                     var filename = target[1].split('.');
                     filename = '.'+filename.pop();
@@ -1855,4 +1855,5 @@ var commands = exports.commands = {
 	},
 
 };
+
 
