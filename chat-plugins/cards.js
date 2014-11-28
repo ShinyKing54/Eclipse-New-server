@@ -1,7 +1,7 @@
 exports.commands = {
 sglaceon: function(target, room, user) {
 if (!this.canBroadcast()) return;
-this.sendReplyBox(<center><font color="#00DAFF" size="3" face="KatyBerry"><u><b>Shadowglaceon</b></u></center></font><p><center><i> \"Live life for the moment because everything else is uncertain"\" </i> </center> </p> <p> <center> <b> Ace: </b> Suicune <br /> <img src='http://files.pokefans.net/sprites/xy/animationen/suicune.gif' width=\"125\" height=\"125\ />");
+this.sendReplyBox(<center><font color="#00DAFF" size="3" face="KatyBerry"><u><b>ShadowGlaceon</b></u></center></font><p><center><i> \"Live life for the moment because everything else is uncertain"\" </i> </center> </p> <p> <center> <b> Ace: </b> Suicune <br /> <img src='http://files.pokefans.net/sprites/xy/animationen/suicune.gif' width=\"125\" height=\"125\ />");
 },
 cangel: function(target, room, user) {
 if (!this.canBroadcast()) return;
