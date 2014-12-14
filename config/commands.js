@@ -1863,11 +1863,11 @@ var commands = exports.commands = {
 		var matched = false;
 		if (target === ''){
 			matched = true;
-			this.sendReplyBox('<b><font color="purple">List of memes:<br><br>-Aliens<br>-Fragequit<br>-Fuck yeah<br>-Umad<br>-Burnheal<br>-OU Train<br>-Gary Train<br>-If you know what I mean<br>-Doge<br>-Troll<br>-Fail<br>-Wtf<br>-Hawkward<br>-I dont always<br>-So hard<br>-Cool story bro<br>-Udense<br>-Professor Oak<br>-Dodge<br>-You dont say<br>-Cockblocked<br>-Save the Titanic<br>-Ninjask\'d<br>-Fuck this<br>-Slowbro<br>-He has a point<br>-Rekt<br>-Death Stare<br>-What is love<br>-Badass<br>-Onixpected<br>-Excuses<br>-Hax<br>-Spheal with it<br>-Trick master is love<br>-7.8<br>-Fabulous<br>-I regret nothing<br>-wrong neighborhood<br>-twss<br>-Fabulous<br>hm01<br><br>Is there a meme missing that you want added? Message a & or ~ and we will consider adding it!</font></b>');
+			this.sendReplyBox('<b><font color="purple">List of memes:<br><br>-Aliens<br>-Fragequit<br>-Fuck yeah<br>-Umad<br>-Burnheal<br>-Gary Train<br>-If you know what I mean<br>-Doge<br>-Troll<br>-Fail<br>-Wtf<br>-I dont always<br>-So hard<br>-Cool story bro<br>-Udense<br>-Professor Oak<br>-Dodge<br>-You dont say<br>-Ninjask\'d<br>-Fuck this<br>-Slowbro<br>-He has a point<br>-Rekt<br>-Death Stare<br>-What is love<br>-Badass<br>-Onixpected<br>-Excuses<br>-Hax<br>-Spheal with it<br>-Trick master is love<br>-7.8<br>-Fabulous<br>-I regret nothing<br>-Wrong neighborhood<br>-TWSS<br>-HM01<br>-Bitch please<br>-Control your orgasms<br>-Haters gonna hate<br>-Your mom<br>-#shrekt<br><br>Is there a meme missing that you want added? Message a & or ~ and we will consider adding it!</font></b>');
                 }
 		if (target === 'aliens'){
 			matched = true;
-			this.sendReplyBox('<img src="http://i.imgflip.com/26am.jpg" />');
+			this.sendReplyBox('<img src="http://i.imgur.com/oMolh3J.jpg" />');
 		}
 		if (target === 'fragequit'){
 			matched = true;
@@ -1899,7 +1899,7 @@ var commands = exports.commands = {
 		}
 		if (target === 'if you know what i mean'){
 			matched = true;
-			this.sendReplyBox('<img src="http://fcdn.mtbr.com/attachments/california-norcal/805709d1370480032-should-strava-abandon-kom-dh-2790387-if-you-know-what-i-mean.png" />');
+			this.sendReplyBox('<img src="http://i.imgur.com/vMMY4ZU.png" />');
 		}
 		if (target === 'doge'){
 			matched = true;
@@ -1919,7 +1919,7 @@ var commands = exports.commands = {
 		}
 		if (target === 'professor oak'){
 			matched = true;
-			this.sendReplyBox('<img src="http://fc05.deviantart.net/fs71/f/2012/092/a/b/not_sure_if___meme_8_by_therealfry1-d4urwmg.jpg" />');
+			this.sendReplyBox('<img src="httphttp://i.imgur.com/wlUIrIV.jpg" />');
 		}
 		if (target === 'hawkward'){
 			matched = true;
@@ -2003,27 +2003,47 @@ var commands = exports.commands = {
 		}
 		if (target === '7.8'){
 			matched = true;
-			this.sendReplyBox('<img src="http://i.imgur.com/Gi0jjuf.jpg" />');
+			this.sendReplyBox('<img src="http://i.imgur.com/u3Wjsx2.jpg" />');
 		}
 		if (target === 'fabulous'){
 			matched = true;
-			this.sendReplyBox('<img src="http://i.imgur.com/HsY0KpR.gif" />');
+			this.sendReplyBox('<img src="http://i.imgur.com/aAcvTn9.gif" />');
 		}
 		if (target === 'wrong neighborhood'){
 			matched = true;
-			this.sendReplyBox('<img src="http://i.imgur.com/aiv8eyj.gif" />');
+			this.sendReplyBox('<img src="http://i.imgur.com/qaAWBPp.gif" />');
 		}
 		if (target === 'i regret nothing'){
 			matched = true;
-			this.sendReplyBox('<img src="http://i.imgur.com/1brNf9v.gif" />');
+			this.sendReplyBox('<img src="http://i.imgur.com/XAo2EVz.gif" />');
 		}
 		if (target === 'twss'){
 			matched = true;
-			this.sendReplyBox('<img src="http://i.imgur.com/oEXOucr.jpg" />');
+			this.sendReplyBox('<img src="http://i.imgur.com/M5A8OAP.jpg" />');
 		}
 		if (target === 'hm01'){
 			matched = true;
-			this.sendReplyBox('<img src="http://i.imgur.com/B7BNIfS.jpg" />');
+			this.sendReplyBox('<img src="http://i.imgur.com/RwGGDi5.jpg" />');
+		}
+		if (target === 'bitch please'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i.imgur.com/8hwtxWt.gif" />');
+		}
+		if (target === 'control your orgasms'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i.imgur.com/QNO3TcF.gif" />');
+		}
+		if (target === 'haters gonna hate'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i.imgur.com/FigQw0C.gif" />');
+		}
+		if (target === 'your mom'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i.imgur.com/k5truy3.jpg" />');
+		}
+			if (target === 'shrekt'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i.imgur.com/vXffwmY.jpg" />');
 		}
                 if (target === ''){
 			}
