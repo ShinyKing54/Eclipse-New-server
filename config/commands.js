@@ -2032,7 +2032,5 @@ var commands = exports.commands = {
 
 			this.sendReply(''+target+' is not available or non existent.');
 		}
-}
-
-
-
+	},
+};
