@@ -7,38 +7,10 @@
  * other words, you can use this facility to introduce a custom theme for
  * your server.
  */
- body {
-  color: blue;
-  font-size: 12px;
-  font-family: Arial, Verdana;
-  background: url(http://i.imgur.com/t6KqTum.jpg);
-}
-.scrollable {
-  overflow: auto;
-}
-.ps-room {
-      position: absolute;
-	  display: block;
-	  top: 56px;
-	  bottom: 0px;
-	  border-left: 1px solid #AAAAAA;
-}
-.chat-log {
-        posistion: absolute;
-		top: 0px;
-		left: 0px;
-		right: 0px;
-		bottom: 40px;
-		font-size: 11pt;
-		background: background: rgba(13, 12, 13, 0.63); 
-		color: rgb(9, 196, 203);
-		word-wrap: word-break;
-		overflow: auto;
-		overflow-x: hidden;
-}
-.menugroup {
+ .menugroup {
     background: rgba(1, 167, 34, 0.3);
 }
+
 .menugroup .button {
     background: rgb(224, 0, 41);
     color: #006921;
@@ -46,46 +18,29 @@
 ;
     text-shadow: 0px 0px 9px #00C903;
 }
+
 .menugroup .button:hover {
     background: rgb(122, 0, 0);
 }
+
 body,html {
-    background: url("http://i.imgur.com/11AVQoo.jpg");
+    background: url("http://i.imgur.com/HaoQW4I.jpg");
 }
-.pm-log {
-  min-height: 100px;
-  max-height: 300px;
-  background: rgba(15, 75, 111, 0.65);
-  color: #E871F0;
-  word-wrap: break-word;
-  border: 1px slolid #AAAAAA;
-  border-top: 0;
-  border-bottom: 0;
-  overflow: auto;
-}
-.pm-log-add {
-  border: 1px solid #CA4D4D;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  background: rgba(202, 24, 231, 0.85);
-}
+
 ul.userlist {
-   background: linear-gradient(to bottom, #958eb2 9%,#958eb2 9%,#958eb2 24%,#382b4a 39%,#958eb2 52%,#f6897a 52%,#6f6395 64%,#000000 85%,#6f6395 100%);
-}
-.chat-log .chat {
-   padding: 4px 0 2px 0;
-   font-size: 9pt;
-}
-.highlighted {
-  background-color: rgba(35, 129, 118, 0.68);
-}
-.message-pm {
-   color: #1CCF76;
-}
-.chat small {
-   font-weight: normal;
-   font-size: 9pt;
-   color: #10A4FF;
+    background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    #850000 10px,
+    #FF0000 20px
+  ),
+  linear-gradient(
+    to top,
+        transparent 10px,
+    #808080,
+    #FFF5F5
+  );
 }
 button.type-Water {
     width: 80px;
