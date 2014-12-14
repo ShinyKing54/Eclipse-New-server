@@ -1929,10 +1929,6 @@ var commands = exports.commands = {
 			matched = true;
 			this.sendReplyBox('<img src="http://i.imgur.com/H0BPFem.jpg" height="314" width="320" />');
 		}
-		if (target === 'all of the homo'){
-			matched = true;
-			this.sendReplyBox('<img src="http://31.media.tumblr.com/tumblr_lurr17gQZ61r190lwo1_500.gif" height="143" width="250" />');
-		}
 		if (target === 'cool story bro'){
 			matched = true;
 			this.sendReplyBox('<img src="http://www.troll.me/images/creepy-willy-wonka/cool-story-bro-lets-hear-it-one-more-time.jpg" height="275" width="275" />');
@@ -1948,10 +1944,6 @@ var commands = exports.commands = {
 		if (target === 'you dont say'){
 			matched = true;
 			this.sendReplyBox('<img src="http://www.wired.com/images_blogs/gamelife/2014/01/youdontsay.jpg" height="209" width="250" />');
-		}
-		if (target === 'cockblocked'){
-			matched = true;
-			this.sendReplyBox('<img src="http://www.quickmeme.com/img/27/27cf7456b43b14cc55bc557d678445f0048beca248d48779c902fbc1715d2753.jpg" height="300" width="300" />');
 		}
 		if (target === 'save the titanic'){
 			matched = true;
@@ -1993,10 +1985,6 @@ var commands = exports.commands = {
 			matched = true;
 			this.sendReplyBox('<img src="https://s3.amazonaws.com/colorslive/png/1016349-V7YrNOJxjNbeeSYR.png" height="200" width="300" />');
 		}
-		if (target === 'wood hammer'){
-			matched = true;
-			this.sendReplyBox('<img src="http://i.imgur.com/kVOXqph.png" />');
-		}
 		if (target === 'excuses'){
 			matched = true;
 			this.sendReplyBox('<img src="http://cdn.memegenerator.net/instances/400x/37768972.jpg" height="200" width="200" />');
@@ -2009,10 +1997,6 @@ var commands = exports.commands = {
 			matched = true;
 			this.sendReplyBox('<img src="http://www.majhost.com/gallery/Ultimatetransfan/Reactions/spheal_with_it_2.jpg" />');
 		}
-		if (target === 'hazeel'){
-			matched = true;
-			this.sendReplyBox('<img src="http://i.imgur.com/z4lB7eO.gif" />');
-		}
 		if (target === 'trick master is love'){
 			matched = true;
 			this.sendReplyBox('<img src="http://i.imgur.com/6YvQuXX.png" width="411" height="204" />');
@@ -2021,11 +2005,26 @@ var commands = exports.commands = {
 			matched = true;
 			this.sendReplyBox('<img src="http://i.imgur.com/Gi0jjuf.jpg" />');
 		}
-		if (target === 'adelf'){
+		if (target === 'fabulous'){
 			matched = true;
-			this.sendReplyBox('<img src="http://i.imgur.com/1fBYWAv.png" width="130" height="218" />');
+			this.sendReplyBox('<img src="http://i.imgur.com/HsY0KpR.gif" />');
 		}
-		
+		if (target === 'wrong neighborhood'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i.imgur.com/aiv8eyj.gif" />');
+		}
+		if (target === 'i regret nothing'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i.imgur.com/1brNf9v.gif" />');
+		}
+		if (target === 'twss'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i.imgur.com/oEXOucr.jpg" />');
+		}
+		if (target === 'hm01'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i.imgur.com/B7BNIfS.jpg" />');
+		}
                 if (target === ''){
 			}
 		else if (!matched) {
