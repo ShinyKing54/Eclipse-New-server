@@ -1855,5 +1855,184 @@ var commands = exports.commands = {
 	},
 
 };
+		//custom commands
+		memes: 'meme',
+		meme: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		target = target.toLowerCase();
+		var matched = false;
+		if (target === ''){
+			matched = true;
+			this.sendReplyBox('<b><font color="purple">List of memes:<br><br>-Aliens<br>-Fragequit<br>-Fuck yeah<br>-Umad<br>-Burnheal<br>-OU Train<br>-Gary Train<br>-If you know what I mean<br>-Doge<br>-Troll<br>-Fail<br>-Wtf<br>-Hawkward<br>-I dont always<br>-So hard<br>-ALL OF THE HOMO<br>-Cool story bro<br>-Udense<br>-Professor Oak<br>-Dodge<br>-You dont say<br>-Cockblocked<br>-Save the Titanic<br>-Ninjask\'d<br>-Fuck this<br>-Slowbro<br>-He has a point<br>-Rekt<br>-Death Stare<br>-What is love<br>-Badass<br>-Onixpected<br>-Wood Hammer<br>-Excuses<br>-Hax<br>-Spheal with it<br>-Hazeel<br>-Trick master is love<br>-7.8<br>-Adelf<br><br>Is there a meme missing that you want added? Message a & or ~ and we will consider adding it!</font></b>');
+                }
+		if (target === 'aliens'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i.imgflip.com/26am.jpg" />');
+		}
+		if (target === 'fragequit'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i0.kym-cdn.com/photos/images/original/000/000/578/1234931504682.jpg" height="189" width="317" />');
+		}
+		if (target === 'fuck yeah'){
+			matched = true;
+			this.sendReplyBox('<img src="http://cdn.ebaumsworld.com/mediaFiles/picture/602006/80615085.jpg" height="200" width="200" />');
+		}
+		if (target === 'so hard'){
+			matched = true;
+			this.sendReplyBox('<img src="http://oi57.tinypic.com/io24g4.jpg" />');
+		}
+		if (target === 'umad'){
+			matched = true;
+			this.sendReplyBox('<img src="http://dailysnark.com/wp-content/uploads/2013/11/umad.gif" />');
+		}
+		if (target === 'burnheal'){
+			matched = true;
+			this.sendReplyBox('<img src="http://yoshi348.thedailypos.org/imagefest/yellow/yoshi3/poke157.png" />');
+		}
+		if (target === 'ou train'){
+			matched = true;
+			this.sendReplyBox('<img src="https://i.chzbgr.com/maxW500/7970259968/h1BCECD4B/" height="300" width="400" />');
+		}
+		if (target === 'gary train'){
+			matched = true;
+			this.sendReplyBox('<img src="http://25.media.tumblr.com/79f09b46546f72a8be7643b73760aae7/tumblr_mkziy58ed71s79jjoo1_250.gif" />');
+		}
+		if (target === 'if you know what i mean'){
+			matched = true;
+			this.sendReplyBox('<img src="http://fcdn.mtbr.com/attachments/california-norcal/805709d1370480032-should-strava-abandon-kom-dh-2790387-if-you-know-what-i-mean.png" />');
+		}
+		if (target === 'doge'){
+			matched = true;
+			this.sendReplyBox('<img src="http://0.media.dorkly.cvcdn.com/79/63/33f2d1f368e229c7e09baa64804307b4-a-wild-doge-appeared.jpg" height="242" width="300" />');
+		}
+		if (target === 'troll'){
+			matched = true;
+			this.sendReplyBox('<img src="http://static3.wikia.nocookie.net/__cb20131014231760/legomessageboards/images/c/c2/Troll-face.png" height="200" width="200" />');
+		}
+		if (target === 'fail'){
+			matched = true;
+			this.sendReplyBox('<img src="http://diginomica.com/wp-content/uploads/2013/11/+big-fail2.jpg" height="180" width="320" />');
+		}
+		if (target === 'wtf'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i.imgur.com/rcwmZSE.png" />');
+		}
+		if (target === 'professor oak'){
+			matched = true;
+			this.sendReplyBox('<img src="http://fc05.deviantart.net/fs71/f/2012/092/a/b/not_sure_if___meme_8_by_therealfry1-d4urwmg.jpg" />');
+		}
+		if (target === 'hawkward'){
+			matched = true;
+			this.sendReplyBox('<img src="https://i.imgflip.com/e6cip.jpg" height="350" width="330" />');
+		}
+		if (target === 'i dont always'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i.imgur.com/H0BPFem.jpg" height="314" width="320" />');
+		}
+		if (target === 'all of the homo'){
+			matched = true;
+			this.sendReplyBox('<img src="http://31.media.tumblr.com/tumblr_lurr17gQZ61r190lwo1_500.gif" height="143" width="250" />');
+		}
+		if (target === 'cool story bro'){
+			matched = true;
+			this.sendReplyBox('<img src="http://www.troll.me/images/creepy-willy-wonka/cool-story-bro-lets-hear-it-one-more-time.jpg" height="275" width="275" />');
+		}
+		if (target === 'udense'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i2.kym-cdn.com/photos/images/newsfeed/000/461/903/3a9.png" height="250" width="340" />');
+		}
+		if (target === 'dodge'){
+			matched = true;
+			this.sendReplyBox('<img src="http://weknowmemes.com/generator/uploads/generated/g1336276473177814171.jpg" height="250" width="256" />');
+		}
+		if (target === 'you dont say'){
+			matched = true;
+			this.sendReplyBox('<img src="http://www.wired.com/images_blogs/gamelife/2014/01/youdontsay.jpg" height="209" width="250" />');
+		}
+		if (target === 'cockblocked'){
+			matched = true;
+			this.sendReplyBox('<img src="http://www.quickmeme.com/img/27/27cf7456b43b14cc55bc557d678445f0048beca248d48779c902fbc1715d2753.jpg" height="300" width="300" />');
+		}
+		if (target === 'save the titanic'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i.imgur.com/hl6VKnp.png" />');
+		}
+		if (target === 'ninjask\'d'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i.imgur.com/ST7DNnh.png" />');
+		}
+		if (target === 'fuck this'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i3.kym-cdn.com/photos/images/original/000/571/700/c3a.gif" height="150" width="300" />');
+		}
+		if (target === 'slowbro'){
+			matched = true;
+			this.sendReplyBox('<img src="http://static.fjcdn.com/pictures/U_698d9e_2568950.jpg" height="216" width="199" />');
+		}
+		if (target === 'he has a point'){
+			matched = true;
+			this.sendReplyBox('<img src="http://m.memegen.com/56jc1t.jpg" height="192" width="256" />');
+		}
+		if (target === 'rekt'){
+			matched = true;
+			this.sendReplyBox('<img src="http://media.giphy.com/media/10GQalkPJf5Mm4/giphy.gif" height="250" width="300" />');
+		}
+		if (target === 'death stare'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i.kinja-img.com/gawker-media/image/upload/s--IL80Wq6b--/spnlcrxx0fwzwtszk2fm.gif" height="169" width="318" />');
+		}
+		if (target === 'what is love'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i3.kym-cdn.com/photos/images/newsfeed/000/460/314/28d.gif" height="192" width="250" />');
+		}
+		if (target === 'badass'){
+			matched = true;
+			this.sendReplyBox('<img src="http://www.memelinks.com/watch-out-we-got-a-badass-over-here.jpg" height="242" width="313" />');
+		}
+		if (target === 'onixpected'){
+			matched = true;
+			this.sendReplyBox('<img src="https://s3.amazonaws.com/colorslive/png/1016349-V7YrNOJxjNbeeSYR.png" height="200" width="300" />');
+		}
+		if (target === 'wood hammer'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i.imgur.com/kVOXqph.png" />');
+		}
+		if (target === 'excuses'){
+			matched = true;
+			this.sendReplyBox('<img src="http://cdn.memegenerator.net/instances/400x/37768972.jpg" height="200" width="200" />');
+		}
+		if (target === 'hax'){
+			matched = true;
+			this.sendReplyBox('<img src="http://cdn.memegenerator.net/instances/500x/52485639.jpg" height="188" width="250" />');
+		}
+		if (target === 'spheal with it'){
+			matched = true;
+			this.sendReplyBox('<img src="http://www.majhost.com/gallery/Ultimatetransfan/Reactions/spheal_with_it_2.jpg" />');
+		}
+		if (target === 'hazeel'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i.imgur.com/z4lB7eO.gif" />');
+		}
+		if (target === 'trick master is love'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i.imgur.com/6YvQuXX.png" width="411" height="204" />');
+		}
+		if (target === '7.8'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i.imgur.com/Gi0jjuf.jpg" />');
+		}
+		if (target === 'adelf'){
+			matched = true;
+			this.sendReplyBox('<img src="http://i.imgur.com/1fBYWAv.png" width="130" height="218" />');
+		}
+		
+                if (target === ''){
+			}
+		else if (!matched) {
+
+			this.sendReply(''+target+' is not available or non existent.');
+		}
+}
+
 
 
