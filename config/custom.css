@@ -36,17 +36,21 @@
 		overflow: auto;
 		overflow-x: hidden;
 }
-.menugroup .button:hover {
-    background: rgb(112, 100, 150);
+.menugroup {
+    background: rgba(1, 167, 34, 0.3);
 }
 .menugroup .button {
-    background: rgb(150, 143, 179);
-	color: #382B4A;
-	text-shadow: 0px 0px 9px #FFA3C5;
-	font-family: Angrybirds;
+    background: rgb(224, 0, 41);
+    color: #006921;
+    font-family: Christmaseve
+;
+    text-shadow: 0px 0px 9px #00C903;
 }
-.menugroup {
-    background: rgba(243, 125, 196, 0.34)
+.menugroup .button:hover {
+    background: rgb(122, 0, 0);
+}
+body,html {
+    background: url("http://i.imgur.com/11AVQoo.jpg");
 }
 .pm-log {
   min-height: 100px;
