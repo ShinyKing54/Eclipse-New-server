@@ -10,19 +10,15 @@
  .menugroup {
     background: rgba(1, 167, 34, 0.3);
 }
-
 .menugroup .button {
     background: rgb(224, 0, 41);
     color: #006921;
-    font-family: Christmaseve
-;
+    font-family: Christmaseve;
     text-shadow: 0px 0px 9px #00C903;
 }
-
 .menugroup .button:hover {
     background: rgb(122, 0, 0);
 }
-
 body,html {
     background: url("http://i.imgur.com/HaoQW4I.jpg");
 }
@@ -312,21 +308,6 @@ button.type-Fairy {
     inset 0 3px 1px 2px rgba(246, 245, 241, 0.3);
 }
 
-
-.menugroup .button:hover {
-    background: rgb(0, 0, 15);
-}
-
-.menugroup .button {
-    background: rgb(34, 34, 48);
-    color: #6F00FF;
-    text-shadow: 0px 0px 8px #A40FFA;
-    font-family: cheapfire;
-    -webkit-text-stroke: 0.009px #FFD30F;
-    font-weight: bold;
-    font-size: 15pt;
-    letter-spacing: 1px;
-}
 
 
 .ps-room.ps-room-light {
